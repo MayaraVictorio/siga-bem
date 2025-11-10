@@ -22,7 +22,9 @@ export function DashboardScreen({ onNavigate, onLogout, inspections }: Dashboard
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="flex items-center justify-between p-4 bg-white border-b">
-        <h1>FleetTire Pro</h1>
+        <h1>Siga Bem</h1>
+        <p>Gestão de Pneus para Frota de Caminhões</p>
+
         <Button variant="ghost" onClick={onLogout}>
           <LogOut className="w-4 h-4 mr-2" />
           Sair
