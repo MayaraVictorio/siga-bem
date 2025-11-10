@@ -29,7 +29,7 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
               <Wrench className="w-8 h-8 text-primary-foreground" />
             </div>
           </div>
-          <CardTitle className="text-2xl">FleetTire Pro</CardTitle>
+          <CardTitle className="text-2xl">Siga Bem</CardTitle>
           <p className="text-muted-foreground">Gestão de Pneus para Frota de Caminhões</p>
         </CardHeader>
         <CardContent>
