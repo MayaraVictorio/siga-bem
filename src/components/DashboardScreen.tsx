@@ -155,7 +155,7 @@ export function DashboardScreen({ onNavigate, onLogout, inspections }: Dashboard
                       >
                         {inspection.condition === 'good' && 'Bom'}
                         {inspection.condition === 'fair' && 'Regular'}
-                        {inspection.condition === 'poor' && 'Ruim'}
+                        {inspection.condition === 'critical' && 'Ruim'}
                       </Badge>
                     </div>
                   ))}
